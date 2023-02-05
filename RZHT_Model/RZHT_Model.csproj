@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>net6.0-windows</TargetFramework>
+	  <UseWindowsForms>true</UseWindowsForms>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+<ProjectReference Include="..\..\..\..\..\..\Учеба\ВКР\Проект пример Rastr + C#\RastrLibrary\RastrLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<Reference Include="ASTRALib">
+	  <HintPath>..\..\..\..\..\..\Program Files\RastrWin3\ASTRALib.dll</HintPath>
+	</Reference>
+	<Reference Include="System.Windows.Forms">
+	  <HintPath>..\..\..\..\..\..\Windows\Microsoft.NET\Framework\v4.0.30319\System.Windows.Forms.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+
+</Project>
